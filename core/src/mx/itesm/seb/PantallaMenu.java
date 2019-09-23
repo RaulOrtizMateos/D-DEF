@@ -29,7 +29,7 @@ class PantallaMenu implements Screen {
     //Referencias de texto
     private Text titleHead;
     private Text subtitleHead;
-
+//y
     //Referencias de botones
     private Button btnNewGame;
     private Button btnSettings;

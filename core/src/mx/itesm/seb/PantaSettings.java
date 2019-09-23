@@ -79,7 +79,7 @@ class PantaSettings implements Screen {
         });
         return btnBack;
     }
-
+//y
     private void cargarTexturas() {
         texturaFondo = new Texture("D-DEF/oceanBackgroundPlayVertical.png");
     }

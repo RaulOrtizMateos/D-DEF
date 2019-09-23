@@ -33,7 +33,7 @@ class PantallaDemo implements Screen {
     //... para bote
     private Bote bote;
     private Movimiento estadoBote = Movimiento.QUIETO;
-
+//y
     //Referencias de texturas
     private Texture texturaFondo;
 
