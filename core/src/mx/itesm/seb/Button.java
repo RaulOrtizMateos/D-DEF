@@ -65,7 +65,7 @@ public class Button extends Actor {
         this.setX(x);
         this.setY(y);
     }
-
+//y
     public float getX(float x){
         return this.x + this.width/2;
     }
