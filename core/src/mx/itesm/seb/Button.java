@@ -104,7 +104,7 @@ public class Button extends Actor {
                     @Override
                     public void clicked(InputEvent event, float x, float y) {
                         super.clicked(event, x, y);
-                        game.setScreen(new PantallaDemo(game));         //AQUÍ INTRODUCE new PantallaSettings
+                        game.setScreen(new PantaSettings(game));         //AQUÍ INTRODUCE new PantallaSettings
                     }
                 });
                 break;
@@ -113,7 +113,7 @@ public class Button extends Actor {
                     @Override
                     public void clicked(InputEvent event, float x, float y) {
                         super.clicked(event, x, y);
-                        game.setScreen(new PantallaDemo(game));         //AQUÍ INTRODUCE new PantallaAbout
+                        game.setScreen(new PantallaAbout(game));         //AQUÍ INTRODUCE new PantallaAbout
                     }
                 });
                 break;
@@ -127,7 +127,7 @@ public class Button extends Actor {
                 });
                 break;
 
-        }
+        }//aha
     }
 
     enum ToScreen{
@@ -135,6 +135,6 @@ public class Button extends Actor {
         MENU,
         GAME,
         SETTINGS,
-        ABOUT;
+        ABOUT,
     }
 }
