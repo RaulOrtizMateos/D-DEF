@@ -56,7 +56,7 @@ class PantallaMenu implements Screen {
         this.agregarBotones();
         Gdx.input.setInputProcessor(escenaMenu);
     }
-
+//r
     private void agregarBotones() {
         escenaMenu.addActor(btnNewGame.getButton());
         escenaMenu.addActor(btnSettings.getButton());
