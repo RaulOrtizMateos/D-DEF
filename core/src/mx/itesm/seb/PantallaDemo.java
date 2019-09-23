@@ -42,7 +42,7 @@ class PantallaDemo implements Screen {
 
     //Marcador de ENERGIA en pantalla
 
-    private int energy = 999999;
+    private float energy = 999;
     private Text text;
 
     public PantallaDemo(Juego juego) {
@@ -183,11 +183,11 @@ class PantallaDemo implements Screen {
         switch(estadoBote){
             case DERECHA:
                 bote.mover(3, 0);
-                energy -=1;
+                energy -=0.25;
                 break;
             case IZQUIERDA:
                 bote.mover(-3, 0);
-                energy-=1;
+                energy-=0.25;
                 break;
         }
     }
@@ -227,7 +227,7 @@ class PantallaDemo implements Screen {
         dibujarFondo();
         dibujarEnemigos();
         dibujarBote();
-        text.setMessage("Energy: " + Integer.toString(energy));
+        text.setMessage("Energy: " + Float.toString(energy));
         text.draw(batch, Juego.ANCHO/2, Juego.ALTO - 60);
         batch.end();
     }
